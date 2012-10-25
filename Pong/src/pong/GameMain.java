@@ -16,7 +16,9 @@ public class GameMain extends JFrame implements Runnable{
 	private Padel padelRight;
 	private Ball ball;
 	
-	
+	/**
+	 * Constructor to set up the main window.
+	 */
 	public GameMain() {
 		setTitle(TITLE);
 		setSize(MAINWIDTH, MAINHEIGHT);
