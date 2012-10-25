@@ -26,6 +26,10 @@ public class Playground extends JPanel {
 		this.player2 = player2;
 	}
 	
+	/**
+	 * Override the paint method of JPanel. 
+	 * This method should only called in paint method of GameMain !
+	 */
 	@Override
 	public void paint(Graphics g) {
 		g.setColor(Color.WHITE);
